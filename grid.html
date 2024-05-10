@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        gap: 1rem;
+        /* overflow-x: scroll; */
+        grid-auto-flow: column;
+        animation: move 4s infinite linear;
+        transition: all 0.8s;
+        border: 2px solid red;
+        padding: 3rem;
+      }
+
+      .child {
+      }
+
+      @keyframes move {
+        from {
+          transform: translateX(100%);
+        }
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      .parent img {
+        object-fit: cover;
+        border-radius: 20px;
+      }
+      .child1 {
+        grid-row: 1/3;
+        grid-column: 1/2;
+      }
+
+      .child2 {
+        grid-row: 1/3;
+        grid-column: 2/4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child child1">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child2">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child3">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child4">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child5">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child6">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child7">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child8">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child9">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+      <div class="child child10">
+        <img
+          width="100%"
+          height="100%"
+          src="https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F5a00585d75e645248c709e5f95bc563b&w=1920&q=75"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
